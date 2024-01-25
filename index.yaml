@@ -3,8 +3,27 @@
 ---
 distributions:
   rolling:
-    ci_builds: []
-    doc_builds: []
+    ci_builds:
+      ci_builds:
+      benchmark: humble/ci-benchmark.yaml
+      drake-ros-underlay: humble/ci-drake-ros-underlay.yaml
+      nightly-connext: humble/ci-nightly-connext.yaml
+      nightly-cross-vendor-connext-cyclonedds: humble/ci-nightly-cross-vendor-connext-cyclonedds.yaml
+      nightly-cross-vendor-connext-fastrtps: humble/ci-nightly-cross-vendor-connext-fastrtps.yaml
+      nightly-cross-vendor-connext-fastrtps-dynamic: humble/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps: humble/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
+      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: humble/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
+      nightly-cross-vendor-fastrtps-fastrtps-dynamic: humble/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
+      nightly-cyclonedds: humble/ci-nightly-cyclonedds.yaml
+      nightly-debug: humble/ci-nightly-debug.yaml
+      nightly-extra-rmw-release: humble/ci-nightly-extra-rmw-release.yaml
+      nightly-fastrtps: humble/ci-nightly-fastrtps.yaml
+      nightly-fastrtps-dynamic: humble/ci-nightly-fastrtps-dynamic.yaml
+      nightly-performance: humble/ci-nightly-performance.yaml
+      nightly-release: humble/ci-nightly-release.yaml
+      overlay: humble/ci-overlay.yaml
+    doc_builds:
+      default: humble/doc-build.yaml
     notification_emails:
     - jrivero@openrobotics.org
     release_builds:
