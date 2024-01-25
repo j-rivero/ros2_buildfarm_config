@@ -3,8 +3,8 @@
 ---
 distributions:
   rolling:
-    ci_builds:
-    doc_builds:
+    ci_builds: []
+    doc_builds: []
     notification_emails:
     - jrivero@openrobotics.org
     release_builds:
